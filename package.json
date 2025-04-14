@@ -1,0 +1,23 @@
+{
+  "name": "academic-credential-verification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.2.0",
+    "dotenv": "^16.5.0",
+    "hardhat": "^2.22.19"
+  },
+  "dependencies": {
+    "academic-credential-verification": "file:",
+    "ethers": "^6.13.5",
+    "web3modal": "^1.9.12"
+  }
+}
